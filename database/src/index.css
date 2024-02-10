@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  background-size: cover;
+  background-image: url('C:\Users\rahul\OneDrive\Desktop\dbms\database\src\rest2.webp');
+  background-repeat: no-repeat;
+  color:black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.container {
+  height: 33vh;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+}
+
+.container p {
+  text-align: center;
+}
+
+#testimonials .container {
+  margin-top: 125px;
+  border-radius: 10px;
+}
+
+.accolades {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+}
+
+/* Login Form Styles */
+.col-md-6 {
+  margin-top: 5rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Additional Styles */
+.mt-3 {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+/* Header Styles */
+header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  padding: 1rem 0;
+  text-align: center;
+}
+/* .navbar {
+  background-color: black;
+  color : white;
+  position: relative;
+  z-index: 2;
+  width : 100%;
+} */
+
